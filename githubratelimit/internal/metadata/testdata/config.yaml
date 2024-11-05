@@ -1,0 +1,9 @@
+default:
+all_set:
+  metrics:
+    github.api.rate-limit.core.remaining:
+      enabled: true
+none_set:
+  metrics:
+    github.api.rate-limit.core.remaining:
+      enabled: false

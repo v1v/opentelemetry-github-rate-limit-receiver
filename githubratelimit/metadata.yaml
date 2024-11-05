@@ -1,0 +1,14 @@
+type: githubratelimit
+status:
+  class: receiver
+  stability:
+    development: [metrics]
+  distributions: [contrib]
+
+metrics:
+  github.api.rate-limit.core.remaining:
+    description: Represents the github api rate limit core remaining.
+    enabled: true
+    gauge:
+      value_type: int
+    unit: "1"

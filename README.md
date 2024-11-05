@@ -9,14 +9,6 @@
 
 ### Install tools
 
-#### Ngrok
-
-The [Ngrok](https://ngrok.com/download/) can be installed by running:
-
-```shell
-make install-ngrok
-```
-
 #### ocb
 
 The [OpenTelemetry Collector Builder (OCB)](https://opentelemetry.io/docs/collector/custom-collector/) can be installed by running:
